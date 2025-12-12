@@ -98,4 +98,3 @@ This project is provided for educational and research purposes. Please cite appr
 - Batchelor, G. K. (2000). *An Introduction to Fluid Dynamics*
 - Kundu, P. K., Cohen, I. M., & Dowling, D. R. (2016). *Fluid Mechanics*
 - Milne-Thomson, L. M. (1968). *Theoretical Hydrodynamics*
-```
