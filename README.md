@@ -1,6 +1,3 @@
-Here's a professional README.md file for the project:
-
-```markdown
 # Potential Flow Simulation: Uniform Flow Superimposed with a Sink
 
 ## 📋 Overview
