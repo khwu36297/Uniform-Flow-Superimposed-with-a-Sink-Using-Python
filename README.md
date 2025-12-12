@@ -1,3 +1,6 @@
+Here's a professional README.md file for the project:
+
+```markdown
 # Potential Flow Simulation: Uniform Flow Superimposed with a Sink
 
 ## 📋 Overview
@@ -37,3 +40,65 @@ The simulation models the superposition of:
 ### Installation
 ```bash
 pip install numpy matplotlib
+```
+
+## 🚀 Usage
+Run the simulation script:
+```bash
+python Chapter03_UniformSink.py
+```
+
+### Key Parameters (Adjustable in Code)
+```python
+U_inf = 1.0          # Uniform flow velocity
+Lambda = 2 * np.pi   # Sink strength
+mask_radius = 0.12   # Masking radius around sink
+```
+
+## 📈 Output
+The script generates:
+1. **Interactive Plot**: Displays during execution with:
+   - Color-mapped streamlines
+   - Potential and stream function contours
+   - Velocity vectors
+   - Marked sink and stagnation points
+2. **Saved Figure**: `potential_flow_full.png` (300 DPI)
+
+## 🧪 Validation
+- Stagnation point location matches theoretical prediction
+- Orthogonality between potential and stream function lines
+- Symmetry about x-axis
+- Velocity magnitude proportional to 1/r near sink
+
+## 📚 Educational Value
+This project serves as an excellent educational tool for:
+- Understanding potential flow theory fundamentals
+- Learning superposition principles in fluid mechanics
+- Visualizing harmonic conjugate functions (Φ and Ψ)
+- Preparing for advanced CFD studies
+
+## 🔮 Future Extensions
+The code can be extended to model:
+- Sources, doublets, and vortices
+- Flow past cylinders and airfoils
+- Rankine oval formation
+- Interactive parameter sliders
+- Lattice Boltzmann Method validation
+
+## 👨‍💻 Author
+**Sorasak Laopraphaiphan**  
+- Undergraduate student, Department of Mechanical and Aerospace Engineering  
+- King Mongkut's University of Technology North Bangkok  
+- Concurrent Computer Science student, Ramkhamhaeng University  
+
+**Research Interests**: Analytical/Computational Fluid Dynamics, Potential Flow Theory, Numerical Methods, Aerodynamics
+
+## 📄 License
+This project is provided for educational and research purposes. Please cite appropriately if used in academic work.
+
+## 📚 References
+- Anderson, J. D. (2010). *Fundamentals of Aerodynamics*
+- Batchelor, G. K. (2000). *An Introduction to Fluid Dynamics*
+- Kundu, P. K., Cohen, I. M., & Dowling, D. R. (2016). *Fluid Mechanics*
+- Milne-Thomson, L. M. (1968). *Theoretical Hydrodynamics*
+```
